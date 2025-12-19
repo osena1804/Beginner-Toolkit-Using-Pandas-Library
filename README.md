@@ -15,18 +15,19 @@ Troubleshooting
 
 Cheat Sheet
 
+Reference 
 🌟 Overview
-Pandas is the industry standard for data analysis. This toolkit focuses on the Full Data Lifecycle:
+This project was developed as a Capstone to demonstrate the power of Generative AI-assisted software development. The goal was to build a comprehensive "First-Steps" toolkit for aspiring data analysts.
 
-Ingest: Loading raw .csv files.
+Using a custom-built dataset (moringa_toolkit.csv), this repository guides users through the core pillars of the Pandas library:
 
-Clean: Fixing "messy" data (duplicates, nulls, casing).
+Data Wrangling: Transforming messy, inconsistent raw data into a clean, structured format.
 
-Transform: Creating new insights through calculations.
+Feature Engineering: Creating new data insights through column transformations.
 
-Analyze: Summarizing data using groupby.
+Exploratory Data Analysis (EDA): Using statistical methods to understand data distributions.
 
-Visualize: Creating charts to tell a story.
+Visual Storytelling: Leveraging Matplotlib to turn code into actionable charts.
 
 🛠️ Setup Guide
 To get started, you need a Python environment.
@@ -96,3 +97,9 @@ df.describe(): Get statistical summaries.
 df.groupby(): Summarize data by categories.
 
 plt.show(): Display your charts.
+
+Reference 
+
+Alex The Analyst. (2023, May 25). Pandas for Beginners [YouTube playlist]. YouTube. https://www.youtube.com/playlist?list=PLUaB-1hjhk8GZOuylZqLz-Qt9RIdZZMBE
+
+pandas development team. "User Guide — pandas 2.3.3 documentation." pandas, 2025, https://pandas.pydata.org/docs/user_guide/index.html.
