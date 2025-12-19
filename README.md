@@ -98,6 +98,28 @@ df.groupby(): Summarize data by categories.
 
 plt.show(): Display your charts.
 
+Testing & Quality Assurance
+To ensure the toolkit remains functional and accurate, the following tests were performed during the development cycle:
+
+Data Integrity Check: Verified that all 20 rows of raw data were processed and that the final output contained zero null values in the Price and Quantity columns.
+
+Path Validation: Tested the script across different directory structures to ensure the FileNotFoundError was handled gracefully.
+
+Transformation Accuracy: Manually cross-checked the Total_Revenue calculation (Price×Quantity) for the first 5 rows to ensure mathematical accuracy.
+
+Visualization Logic: Confirmed that the bar chart correctly displays only the Top 5 books sorted by revenue.
+
+Iteration History
+This project followed an Agile Iteration process:
+
+V1.0: Initial script to load and print raw CSV data.
+
+V1.1: Added cleaning logic (capitalization and duplicate removal).
+
+V1.2: Integrated matplotlib for visual reporting.
+
+V1.3 (Final): Refactored file naming conventions and added error handling for a smoother beginner experience.
+
 Reference 
 
 Alex The Analyst. (2023, May 25). Pandas for Beginners [YouTube playlist]. YouTube. https://www.youtube.com/playlist?list=PLUaB-1hjhk8GZOuylZqLz-Qt9RIdZZMBE
